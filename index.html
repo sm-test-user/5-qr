@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QR Code Viewer">
+    <title>QR Code</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .qr-container {
+            text-align: center;
+        }
+
+        .qr-container img {
+            max-width: 65%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .qr-container p {
+            margin-top: 100px;
+            color: #555;
+            font-size: 1rem;
+        }        
+    </style>
+</head>
+
+<body>
+    <div class="qr-container">
+        <img src="./sd.png" alt="QR Code">
+        <p><span style="color: #303030; font-size:45px;">Scan the QR code to access the content.</span></p>
+    </div>
+</body>
+
+</html>
